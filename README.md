@@ -1,3 +1,3 @@
-# GameDataManager
+# Game Data Editor
 
-Program built to specifically manage data for entities for my game.
+Program built to specifically edit and manage data for entities in my game.

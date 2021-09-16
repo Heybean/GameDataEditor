@@ -7,6 +7,32 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
-        
+        <DockPanel>
+            <Menu x:Name="menu" DockPanel.Dock="Top">
+                <MenuItem Header="File">
+                    <MenuItem Header="_New" InputGestureText="Ctrl+N"/>
+                    <MenuItem Header="_Open" InputGestureText="Ctrl+O"/>
+                    <MenuItem Header="_Save" InputGestureText="Ctrl+S"/>
+                    <MenuItem Header="Save As" InputGestureText="Ctrl+Shift+S"/>
+                    <MenuItem Header="Exit" InputGestureText="Alt+F4" />
+
+                </MenuItem>
+                <MenuItem Header="Edit">
+                    
+                </MenuItem>
+            </Menu>
+            <TabControl x:Name="tabControl">
+                <TabItem Header="Entities">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="Items">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+                <TabItem Header="Text">
+                    <Grid Background="#FFE5E5E5"/>
+                </TabItem>
+            </TabControl>
+        </DockPanel>
+
     </Grid>
 </Window>
